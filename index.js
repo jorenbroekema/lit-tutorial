@@ -56,7 +56,7 @@ render(template(farmAnimals.cow), app);
   render(template(farmAnimals.cow), app);
 }, 2000); */
 
-import './tea-shop/tea-shop.js';
+/* import './tea-shop/tea-shop.js';
 render(
   html`
     <tea-shop
@@ -64,6 +64,15 @@ render(
       city="London"
       has-english-breakfast
     ></tea-shop>
+  `,
+  app
+); */
+
+import './hello-world/hello-world.js';
+
+render(
+  html`
+    <hello-world mood="happy"></hello-world>
   `,
   app
 );
